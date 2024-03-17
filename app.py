@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from plotly import graph_objs as go
 from scipy.stats import norm 
-from sklearn.linear_model import LinearRegression
 import numpy as np 
 
 data = pd.read_excel("data//AssignmentData.xlsx")
